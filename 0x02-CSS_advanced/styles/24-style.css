@@ -281,6 +281,12 @@ ul.row {
     background-color: var(--color-light-grey);
 }
 
+.card-services a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+}
+
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
