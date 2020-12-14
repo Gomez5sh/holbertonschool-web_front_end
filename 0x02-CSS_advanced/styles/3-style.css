@@ -6,7 +6,7 @@
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-darck-grey: #353535;
-    --text-color: var( --color-black);
+    --text-color: var(--color-black);
 }
 
 
@@ -17,11 +17,11 @@ html {
 }
 
 body {
-    color: var( --text-color);
+    color: var(--text-color);
 }
 
 a {
-    color: var( --text-color);
+    color: var(--text-color);
 }
 
 
@@ -35,12 +35,12 @@ a {
 /* Card */
 
 .card-category {
-    color: var( color-primary);
+    color: var(--color-primary);
 }
 
 
 /* Section */
 
 .section-tagline {
-    color: var( color-primary);
+    color: var(--color-primary);
 }
