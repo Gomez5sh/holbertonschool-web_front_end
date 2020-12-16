@@ -1,0 +1,16 @@
+/* Write a Sass file that assigns */
+
+$custon_color: #3D3D3D;
+$background_color: #6D6D6D;
+body {
+    color: $custon_color;
+    background-color: $custon_color;
+}
+
+p {
+    color: $custon_color;
+}
+
+h2 {
+    background-color: $background_color;
+}
