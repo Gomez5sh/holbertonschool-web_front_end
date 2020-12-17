@@ -1,0 +1,8 @@
+/* Nested hover */
+
+button {
+    columns: #FF0000;
+    &:hover {
+        columns: #00ff00;
+    }
+}
