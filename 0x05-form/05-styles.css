@@ -866,7 +866,6 @@ textarea:focus {
   font-style: italic;
   font-size: var(--font-size-small);
 }
-
 /* Form group
 ============================= */
 
@@ -876,13 +875,13 @@ textarea:focus {
   background-color: var(--color-white);
 }
 
-.form-group .focus-within {
+.form-group:focus-within {
   background-color: var(--color-light-grey);
   transition: 0.3s;
 }
 
 /* Form field
-============================= */
+  ============================= */
 
 .form-field-container {
   position: relative;
@@ -893,7 +892,7 @@ textarea:focus {
 }
 
 /* Form help
-============================= */
+  ============================= */
 
 .form-group .form-help {
   margin: 0;
