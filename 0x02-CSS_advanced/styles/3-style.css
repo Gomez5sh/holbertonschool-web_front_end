@@ -1,0 +1,46 @@
+/* Root */
+
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
+
+/* General */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+}
+
+
+/* Elements */
+
+.visually-hidden {
+    display: none;
+}
+
+
+/* Card */
+
+.card-category {
+    color: var(--color-primary);
+}
+
+
+/* Section */
+
+.section-tagline {
+    color: var(--color-primary);
+}
