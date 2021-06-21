@@ -1,8 +1,8 @@
 function createClassRoom(numbersOfStudents) {
     function studentSeat(seat) {
-        return function() {
+        return (temp = () => {
             return seat;
-        };
+        });
     }
 
     let students = new Array();
