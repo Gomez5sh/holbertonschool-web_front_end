@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Task 10</title>
+    <script
+      type="application/javascript"
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <script type="application/javascript">
+      function addPostRow(data) {
+        prgph =
+          "<p><span>Post created with id " +
+          data.id +
+          ", title: " +
+          data.title +
+          ", author: " +
+          data.author +
+          "</span></p>";
+        $("body").append(prgph);
+      }
+
+      function listPosts() {
+        $.get("http://localhost:3000/posts", function (data) {
+          let len = data.length;
+          for (let i = 0; i < len; ++i) {
+            addPostRow(data[i]);
+          }
+        });
+      }
+
+      $(document).ready(function () {
+        listPosts();
+      });
+    </script>
+  </head>
+
+  <body></body>
+</html>
